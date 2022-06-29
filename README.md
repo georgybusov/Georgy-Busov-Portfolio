@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# Georgy Busov Portfolio
 
-You can use the [editor on GitHub](https://github.com/georgybusov/Georgy-Busov-Portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+# Project 1: Deal my car
 
-1. Numbered
-2. List
+**Project intuition and reasoning:**
 
-**Bold** and _Italic_ and `Code` text
+Everyone knows that car dealerships (especially used ones) leverage market info against their customers to extract an extremely high profit margin from both their sales and purchases of vehicles.
+They will value trade-ins from their customers at no more than around 40% of the car's current market value, and most people will let it go for that price because they think that is their best option.
 
-[Link](url) and ![Image](src)
-```
+I decided to take on this project to help people see what price a dealer would try to sell their car for after they accept it as a trade in, so that they can know exactly how much they should ask for when negotiating their trade-in.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+**Overview of work done:**
 
-### Jekyll Themes
+In this project I went through:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/georgybusov/Georgy-Busov-Portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Scraping car data from Kijiji ads posted by dealerships in the Calgary area
+- Cleaning the data
+- Performing some EDA to identify key features and trends
+- Selecting and training a regression model
+- Creating a clunky UI for people to see what dealers would price their cars at (will develop a nicer front-end API soon)
 
-### Support or Contact
+Here is an example:
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![alt text](https://github.com/bgosha24/Deal-my-car/blob/main/dealmycarexample1.jpg?raw=true)
+
+
+
+
