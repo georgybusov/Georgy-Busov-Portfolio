@@ -4,13 +4,14 @@ Welcome to my portfolio! Here are some of the projects I've been working on in t
 
 Feel free to reach out to me at georgy.busov@gmail.com if you have any questions or comments.
 
+Also, I love this theme
 
 
 
 
 # [Project 1: Deal my car](https://github.com/georgybusov/Deal-my-car)
 
-**Project intuition and reasoning:**
+**INTRO**
 
 Everyone knows that car dealerships (especially used ones) leverage market info against their customers to extract an extremely high profit margin from both their sales and purchases of vehicles.
 They will value trade-ins from their customers at no more than around 40% of the car's current market value, and most people will let it go for that price because they think that is their best option.
@@ -36,7 +37,7 @@ Here is an example:
 # [Project 2: Predicting House Prices](https://github.com/georgybusov/Predicting-house-prices)
 
 
-
+**INTRO**
 
 In this notebook I went over the Ames Housing Dataset and attempted to create a linear regression model that is able to predict the price of a house with a 
 7.85% error.
@@ -45,7 +46,7 @@ I later used this notebook for my submission in [this kaggle competition](https:
 
 ![alt text](https://github.com/bgosha24/Predicting-house-prices/blob/main/ames.jpg?raw=true)
 
-**This project:** 
+**Lessons Learned**
 
 - Definitely ranked up my feature engineering skills and showed me the important of domain knowledge for building machine learning models
 - Helped me raise my expertise with model selection and particularily the benefits of using GridSearchCV
