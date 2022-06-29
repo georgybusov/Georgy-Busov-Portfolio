@@ -2,10 +2,7 @@
 
 Welcome to my portfolio! Here are some of the projects I've been working on in the past couple of months.
 
-Feel free to reach out to me at georgy.busov@gmail.com if you have any questions or comments.
-
-Also, I love this theme
-
+Feel free to reach out to me at georgy.busov@gmail.com if you have any questions or comments. And yes, this theme is called "hacker".
 
 
 
@@ -20,15 +17,13 @@ I decided to take on this project to help people see what price a dealer would t
 
 **Overview of work done:**
 
-In this project I went through:
-
 - Scraping car data from Kijiji ads posted by dealerships in the Calgary area
 - Cleaning the data
 - Performing some EDA to identify key features and trends
 - Selecting and training a regression model
 - Creating a clunky UI for people to see what dealers would price their cars at (will develop a nicer front-end API soon)
 
-Here is an example:
+Here is an example of a prediction:
 
 ![alt text](https://github.com/bgosha24/Deal-my-car/blob/main/dealmycarexample1.jpg?raw=true)
 
@@ -57,7 +52,7 @@ I later used this notebook for my submission in [this kaggle competition](https:
 # [Project 3: Image Recognition with Pytorch](https://github.com/georgybusov/Image-Recognition-with-PyTorch)
 
 
-**Project intuition and reasoning:**
+**INTRO**
 
 This is my first run-in with PyTorch. I built a Convolutional Neural Network to predict what digit is being displayed in an image. The dataset used for this is PyTorch's built in MNIST dataset that has 70k images. 
 
@@ -75,7 +70,7 @@ This is what an image looks like, here is the number 9:
 - Evaluate accuracy and check what images weren't correctly predicted
 
 
-**Results**
+
 Here are some of the images that could not be predicted... probably the work of a doctor.
 
 ![alt text](https://github.com/georgybusov/Image-Recognition-with-PyTorch/blob/main/badnumbers.jpg?raw=true)
@@ -85,7 +80,7 @@ Here are some of the images that could not be predicted... probably the work of 
 # [Project 4: Fandango vs The People](https://github.com/georgybusov/Fandango-vs-The-People)
 
 
-**Project intuition and reasoning:**
+**INTRO**
 
 Would you rather watch a movie with an internet rating of 1.5/5 or 4/5 stars? 
 
@@ -115,7 +110,7 @@ But what happens when you are a website that provides movie ratings, and also se
 
 # [Project 5: Predicting Titanic Survivors](https://github.com/georgybusov/Predicting-Titanic-Survivors)
 
-_**Project intuition and reasoning**_
+**INTRO**
 
 In this project I tried out the Titanic competition on Kaggle. My first submission was able to predict survivors with a 75% accuracy which is surprisingly only within the top 85% of results. After playing around with GridSearch and classifiers other than just Logistic Regression I was able to pump up that number to a 77% accuracy and get into the top 60% of all submissions. I was quite unsatisfied with these results and tossed it up to my lack of model tuning expertise. However, even after copying the parameters of a top 2% performer on the leaderboard (83% accuracy) my model's performance only increased to 77.99%. This made me reconsider how big the difference in classifying power is between models and that maybe I need to look at other optimization options.
 
