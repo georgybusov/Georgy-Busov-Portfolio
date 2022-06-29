@@ -8,14 +8,14 @@ Feel free to reach out to me at georgy.busov@gmail.com if you have any questions
 
 # [Project 1: Deal my car](https://github.com/georgybusov/Deal-my-car)
 
-**INTRO**
+**INTRO:**
 
 Everyone knows that car dealerships (especially used ones) leverage market info against their customers to extract an extremely high profit margin from both their sales and purchases of vehicles.
 They will value trade-ins from their customers at no more than around 40% of the car's current market value, and most people will let it go for that price because they think that is their best option.
 
 I decided to take on this project to help people see what price a dealer would try to sell their car for after they accept it as a trade in, so that they can know exactly how much they should ask for when negotiating their trade-in.
 
-**Overview of work done:**
+**OVERVIEW**
 
 - Scraping car data from Kijiji ads posted by dealerships in the Calgary area
 - Cleaning the data
@@ -32,7 +32,7 @@ Here is an example of a prediction:
 # [Project 2: Predicting House Prices](https://github.com/georgybusov/Predicting-house-prices)
 
 
-**INTRO**
+**INTRO:**
 
 In this notebook I went over the Ames Housing Dataset and attempted to create a linear regression model that is able to predict the price of a house with a 
 7.85% error.
@@ -41,7 +41,7 @@ I later used this notebook for my submission in [this kaggle competition](https:
 
 ![alt text](https://github.com/bgosha24/Predicting-house-prices/blob/main/ames.jpg?raw=true)
 
-**Lessons Learned**
+**OVERVIEW**
 
 - Definitely ranked up my feature engineering skills and showed me the important of domain knowledge for building machine learning models
 - Helped me raise my expertise with model selection and particularily the benefits of using GridSearchCV
@@ -52,7 +52,7 @@ I later used this notebook for my submission in [this kaggle competition](https:
 # [Project 3: Image Recognition with Pytorch](https://github.com/georgybusov/Image-Recognition-with-PyTorch)
 
 
-**INTRO**
+**INTRO:**
 
 This is my first run-in with PyTorch. I built a Convolutional Neural Network to predict what digit is being displayed in an image. The dataset used for this is PyTorch's built in MNIST dataset that has 70k images. 
 
@@ -60,7 +60,7 @@ This is what an image looks like, here is the number 9:
 
 ![alt text](https://github.com/georgybusov/Image-Recognition-with-PyTorch/blob/main/nine.jpg?raw=true)
 
-**Project Overview**
+**OVERVIEW**
 - Create loaders and define layers
 - Create a tensor
 - Perform first convolution/activation and run pooling layer
@@ -80,7 +80,7 @@ Here are some of the images that could not be predicted... probably the work of 
 # [Project 4: Fandango vs The People](https://github.com/georgybusov/Fandango-vs-The-People)
 
 
-**INTRO**
+**INTRO:**
 
 Would you rather watch a movie with an internet rating of 1.5/5 or 4/5 stars? 
 
@@ -90,7 +90,7 @@ And with this assumption, comes the realization that people would rather watch m
 But what happens when you are a website that provides movie ratings, and also sell online tickets for those movies? One could say that it would logically makes sense for you to rate movies higher to sell more ticket. This is exactly what a company called Fandango was suspected of doing on their website and I would like to launch a further investigation to prove it.
 
 
-**Project overview:**
+**OVERVIEW**
 
 - Analyze Fandango's movie ratings through visualization and statistical measures
 - Find potential inconsistencies in Fandango's measurement formulas
@@ -110,13 +110,13 @@ But what happens when you are a website that provides movie ratings, and also se
 
 # [Project 5: Predicting Titanic Survivors](https://github.com/georgybusov/Predicting-Titanic-Survivors)
 
-**INTRO**
+**INTRO:**
 
 In this project I tried out the Titanic competition on Kaggle. My first submission was able to predict survivors with a 75% accuracy which is surprisingly only within the top 85% of results. After playing around with GridSearch and classifiers other than just Logistic Regression I was able to pump up that number to a 77% accuracy and get into the top 60% of all submissions. I was quite unsatisfied with these results and tossed it up to my lack of model tuning expertise. However, even after copying the parameters of a top 2% performer on the leaderboard (83% accuracy) my model's performance only increased to 77.99%. This made me reconsider how big the difference in classifying power is between models and that maybe I need to look at other optimization options.
 
 After reconsidering some features of the dataset I decided to make some changes in my approach to feature engineering. Instead of dropping columns I decided to try to either fill or create new features that would replace them.
 
-_**Project Overview:**_
+**OVERVIEW**
 
 - Data Cleaning
 - EDA
