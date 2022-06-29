@@ -1,4 +1,4 @@
-# Georgy Busov Portfolio
+Portfolio
 
 Welcome to my portfolio! Here are some of the projects I've been working on in the past couple of months.
 
