@@ -2,7 +2,7 @@
 
 Here we have some of the projects I've been working on in the past couple of months.
 
-Feel free to reach out to me at georgy.busov@gmail.com if you have any questions or comments. And yes, this theme is called "hacker".
+Feel free to reach out to me at georgy.busov@gmail.com if you have any questions or comments. And yes, this theme is literally called "hacker" and I love it.
 
 
 
