@@ -5,7 +5,30 @@ Here we have some of the projects I've been working on in the past couple of mon
 Feel free to reach out to me at georgy.busov@gmail.com if you have any questions or comments.
 
 
-# [Project 1: Deal my car](https://github.com/georgybusov/Deal-my-car)
+# [Project 1: Sales Predictions](https://github.com/georgybusov/Case-Study-Sales-Prediction)
+
+**INTRO:**
+
+This was a case study for a course I did where we were tasked with predicting sales for a retailer based on their historical sales. 
+
+I loved this project because it prepared me really well for when I actually had to do this for one of my employers, and because it helped me translate my theoretical knowledge of ML in Python into something that offers business value.
+
+**OVERVIEW**
+
+- Scraping car data from Kijiji ads posted by dealerships in the Calgary area
+- Cleaning the data
+- Performing some EDA to identify key features and trends
+- Selecting and training a regression model
+- Creating a clunky UI for people to see what dealers would price their cars at (will develop a nicer front-end API soon)
+
+I was able to predict weekly sales within 94.5% accuracy with my final tuned model. 
+
+![alt text](https://github.com/bgosha24/Deal-my-car/blob/main/Screenshot 2023-09-27 113258.png?raw=true)
+
+
+
+
+# [Project 2: Deal my car](https://github.com/georgybusov/Deal-my-car)
 
 **INTRO:**
 
@@ -25,28 +48,6 @@ I decided to take on this project to help people see what price a dealer would t
 Here is an example of a prediction:
 
 ![alt text](https://github.com/bgosha24/Deal-my-car/blob/main/dealmycarexample1.jpg?raw=true)
-
-
-
-# [Project 2: Predicting House Prices](https://github.com/georgybusov/Predicting-house-prices)
-
-
-**INTRO:**
-
-In this notebook I went over the Ames Housing Dataset and attempted to create a linear regression model that is able to predict the price of a house with a 
-7.85% error.
-
-I later used this notebook for my submission in [this kaggle competition](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) and was able to score in the top 16.8% of participants.
-
-![alt text](https://github.com/bgosha24/Predicting-house-prices/blob/main/ames.jpg?raw=true)
-
-**OVERVIEW**
-
-- Definitely ranked up my feature engineering skills and showed me the important of domain knowledge for building machine learning models
-- Helped me raise my expertise with model selection and particularily the benefits of using GridSearchCV
-- Gave me an understanding of what it is like to go from a raw dataset that needs to be heavily processed and manipulated to a ready to deploy model
-
-
 
 # [Project 3: Image Recognition with Pytorch](https://github.com/georgybusov/Image-Recognition-with-PyTorch)
 
@@ -105,37 +106,3 @@ But what happens when you are a website that provides movie ratings, and also se
 
 
 *Most of Fandango's lowest rated films are 3.75/5 stars... They are clearly inflating their ratings.*
-
-
-# [Project 5: Predicting Titanic Survivors](https://github.com/georgybusov/Predicting-Titanic-Survivors)
-
-**INTRO:**
-
-In this project I tried out the Titanic competition on Kaggle. My first submission was able to predict survivors with a 75% accuracy which is surprisingly only within the top 85% of results. After playing around with GridSearch and classifiers other than just Logistic Regression I was able to pump up that number to a 77% accuracy and get into the top 60% of all submissions. I was quite unsatisfied with these results and tossed it up to my lack of model tuning expertise. However, even after copying the parameters of a top 2% performer on the leaderboard (83% accuracy) my model's performance only increased to 77.99%. This made me reconsider how big the difference in classifying power is between models and that maybe I need to look at other optimization options.
-
-After reconsidering some features of the dataset I decided to make some changes in my approach to feature engineering. Instead of dropping columns I decided to try to either fill or create new features that would replace them.
-
-**OVERVIEW**
-
-- Data Cleaning
-- EDA
-- Feature selection and extraction
-- Preprocessing
-- Model Selection
-
-
-
-_**Lessons learned:**_
-
-- Having a clean dataset with thoughtful feature engineering is more important than optimizing models as it yields a larger jump in performance. I tried to use cross_val_score to find models that perform best on this dataset and despite trying lots of different param combinations with GridSearchCV I was only able to get a 2% increase which may take me from the 85th percentile to the 25th on the leaderboard, but definitely doesn't do much for my ability to predict survivors on the Titanic.
-
-- Distributions are very important as they can significantly aid in your model's performance. My final model after perfomring a log1p normalization gave me a top 5% score in this competition
-
-- If a feature seems to be useless or too hard to interpret, it is best to break it up into digestible features. This was the case for me when I changed the Cabin feature into cabin_adv which is cabin letters and cabin_multiple which signifies a passenger with multiple cabins.
-
-- Some features are meant to be paired up as they are heavily correlated. The Sibling/Spouse and Parent/Child features were combined to give room to 2 new features named FamilySize and Alone
-
-- Some numerical features could be used to create categorical features. I used age to determine if a passenger was a child (15 and younger) or an adult.
-
-- Don't rush into model selection and instead explore the dataset and see how you can make it as easy as possible for model to digest.
-
