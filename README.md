@@ -25,7 +25,7 @@ I loved this project because it prepared me really well for when I actually had 
 I was able to predict weekly sales within 94.5% accuracy with my final tuned model. 
 
 
-![alt text](https://github.com/bgosha24/Deal-my-car/blob/main/final_prediction.png?raw=true)
+![alt text](https://github.com/bgosha24/Deal-my-car/blob/main/final_prediction.jpg?raw=true)
 
 
 
