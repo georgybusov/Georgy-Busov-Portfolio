@@ -15,16 +15,17 @@ I loved this project because it prepared me really well for when I actually had 
 
 **OVERVIEW**
 
-- Scraping car data from Kijiji ads posted by dealerships in the Calgary area
-- Cleaning the data
+- Loading in the data from csv files
+- Data cleaning and wrangling
 - Performing some EDA to identify key features and trends
-- Selecting and training a regression model
-- Creating a clunky UI for people to see what dealers would price their cars at (will develop a nicer front-end API soon)
-
+- Feature Engineering
+- Finding the right regression model
+- Tuning models and comparing results vs baseline
+  
 I was able to predict weekly sales within 94.5% accuracy with my final tuned model. 
 
-![alt text](https://github.com/bgosha24/Deal-my-car/blob/main/Screenshot 2023-09-27 113258.png?raw=true)
 
+![alt text](https://github.com/bgosha24/Deal-my-car/blob/main/final_prediction.png?raw=true)
 
 
 
@@ -36,14 +37,6 @@ Everyone knows that car dealerships (especially used ones) leverage market info 
 They will value trade-ins from their customers at no more than around 40% of the car's current market value, and most people will let it go for that price because they think that is their best option.
 
 I decided to take on this project to help people see what price a dealer would try to sell their car for after they accept it as a trade in, so that they can know exactly how much they should ask for when negotiating their trade-in.
-
-**OVERVIEW**
-
-- Scraping car data from Kijiji ads posted by dealerships in the Calgary area
-- Cleaning the data
-- Performing some EDA to identify key features and trends
-- Selecting and training a regression model
-- Creating a clunky UI for people to see what dealers would price their cars at (will develop a nicer front-end API soon)
 
 Here is an example of a prediction:
 
